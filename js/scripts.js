@@ -4,13 +4,13 @@ $(document).ready(function()  {
     
     if (question5 === "Build websites" )  {
       $("#result").show();
-      $("#languages").html("Java Script");
+      $("#languages").html("Java Script!");
     } else if (question5 === "Make apps") {
       $("#result").show();
-      $("#languages").html("Swift");
+      $("#languages").html("Swift!");
     } else  {
       $("#result").show();
-      $("#languages").html("Python");
+      $("#languages").html("Python!");
     
 
     }
