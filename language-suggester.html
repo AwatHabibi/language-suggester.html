@@ -8,5 +8,53 @@
   <title>Programming Language Selector</title>
 </head>
 <body>
+  <h1>Which coding language should you learn?</h1>
+    <p>Thinking of getting into coding but not sure which coding language you want to learn? This programming language suggester will help you select between these three languages: Python, JavaScript, and Swift. Simply answer the questions below to get a suggestion.</p>
+
+    <div class="container">
+      <h2>Questions</h2>
+      <div>
+        <form id="question1">
+          <div class="questions">
+            <label for="q1">Have you looked into the most popular coding languages?(Yes/No)</label>
+            <input id="q1" type="text">
+          </div>
+          <div class="questions">
+            <label for="question2">Do you have any coding experience?(Yes/No)
+            </label>
+            <input id="q2" type="text">
+          </div>
+          <div class="questions">
+            <label for="question3">Are you someone who likes challenging themselves?(Yes/No/Sometimes)</label>
+            <input id="q3" type="text">
+          </div>
+          <div class="questions">
+            <label for="question4">Do you prefer learning with others or figuring it out yourself?</label>
+            <input id="q4" type="text">
+          </div>
+          <div class="questions">
+            <label for="question5">Do you want to learn coding to build websites, make apps, or learn an easier versatile language?</label>
+          
+            <select class="question5" id="q5">
+              <option value="JavaScript">build websites</option>
+              <option value="Swift">make apps</option>
+              <option value="Python">something versitile</option>
+            </select>
+          </div>
+          
+          
+          <button type="submit" class="btn">Show me my results!</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="results">
+      <h2>Here are your results</h2>
+      <P>The language you should learn is <span class="result"></span> </P>
+
+    </div>
+
+
+
 </body>
 </html>
