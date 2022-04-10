@@ -6,6 +6,8 @@ $(document).ready(function()  {
       $("#result").show("JavaScript");
     } else if (question5 === "make apps") {
       $("#result").show("Swift");
+    } else  {
+      $("result").show("Python")
 
       event.preventDefault();
     }
