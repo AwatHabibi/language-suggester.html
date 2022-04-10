@@ -1,15 +1,19 @@
 $(document).ready(function()  {
-  $("form#question5").submit(function(event)  {
-    const question5 = $("select#question5").val();
-
-    if (question5 === "make websites" )  {
-      $("#result").show("JavaScript");
-    } else if (question5 === "make apps") {
-      $("#result").show("Swift");
+  $("form#myForm").submit(function(event)  {
+    const question5 = $("select#q5").val();
+    
+    if (question5 === "Build websites" )  {
+      $("#result").show();
+      $("#languages").html("Java Script");
+    } else if (question5 === "Make apps") {
+      $("#result").show();
+      $("#languages").html("Swift");
     } else  {
-      $("result").show("Python")
+      $("#result").show();
+      $("#languages").html("Python");
+    
 
-      event.preventDefault();
     }
+    event.preventDefault();
   })
-})
+});
